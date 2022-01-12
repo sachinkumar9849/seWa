@@ -557,3 +557,70 @@ footer#footer .button-footer .footer-btn {
 
 
 /*================================================= FOOTER END  */
+
+/*============================================= CATEGORY START  */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+.grid-item {
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    border: solid 1px #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+.text_cate h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #4d4a4a;
+}
+section#category {
+    margin-bottom: 25px;
+}
+section#category .grid-container {
+    background: white;
+    padding: 20px 0 5px 0;
+}
+.text_cate h3 {
+    padding: 10px;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.grid-item img.img-fluid {
+    border-radius: 50%;
+    min-height: 109px;
+    max-height: 109px;
+}
+.grid-item img.img-fluid {
+    border-radius: 50%;
+    min-height: 109px;
+    max-height: 109px;
+    /* object-fit: contain; */
+    max-width: 109px;
+    min-width: 109px;
+    border: 10px solid;
+    border-color: white;
+    margin: 0 auto;
+}
+
+.category_men_block .grid-item{
+	padding: 0;
+	margin: 0;
+	margin-left: 22px;
+}
+
+
+/*============================================= CATEGORY END  */
