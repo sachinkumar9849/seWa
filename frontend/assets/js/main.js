@@ -50,14 +50,14 @@ $('.slider_banner').slick({
 
 $('.slick_category').slick({
     autoplay: true,
-    slidesToShow: 9,
+    slidesToShow: 7,
     slidesToScroll: 1,
     arrows: true,
     dots: false,
     responsive: [{
             breakpoint: 1400,
             settings: {
-                slidesToShow: 6,
+                slidesToShow: 4,
                 slidesToScroll: 1
             }
         },
@@ -95,10 +95,13 @@ $('.slick_category').slick({
 });
 // Recommendation For You end
 
+// Two banner slider start
+
+// Two banner slider end
 // Recommendation For You start
 
 $('.slider_feature').slick({
-    autoplay: true,
+    autoplay: false,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
