@@ -134,6 +134,13 @@ body {
 
 
 /*=================================================== CUSTOME BG COLOR END  */
+/*=================================================== CUSTOME COLOR START  */
+
+.red_text{
+    color: var(--red_light);
+}
+
+/*=================================================== CUSTOME COLOR END  */
 
 
 /*=================================================== CUSTOME CSS START  */
@@ -544,6 +551,7 @@ section#productlist .grid-item {
   section#productlist .product-grid-item {
     transition: all 0.5s;
     position: relative;
+    padding: 10px;
   }
   
   section#productlist .product-grid-item a {
@@ -551,7 +559,7 @@ section#productlist .grid-item {
   }
   
   section#productlist .grid-item:hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 0 0 6px 0 rgb(1 1 1 / 30%);
    
   }
   
@@ -681,6 +689,124 @@ section#productlist .product-grid-item .pic-1 {
   }
   
 /*=================================================== FEATURED PRODUCT END  */
+/*=================================================== TOW BANNER START  */
+section#two_banner .banner_img_block img {
+    min-height: 136px;
+    max-height: 136px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/*=================================================== TOW BANNER END  */
+
+/*=================================================== BEST SELLING START  */
+.savings {
+    width: 80px;
+    background: yellow;
+    border-radius: 50%;
+    height: 80px;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+span.savings-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+
+}
+
+/* 
+section#productlist .flip-clock-wrapper ul {
+    position: relative;
+    float: left;
+    margin: 5px;
+    width: 19px;
+    height: 34px;
+    font-size: 0;
+    font-weight: bold;
+    line-height: 14px;
+    border-radius: 6px;
+    background: #000;
+}
+section#productlist .flip-clock-wrapper ul li {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 107%;
+    line-height: 24px;
+    text-decoration: none !important;
+}
+section#productlist .flip-clock-wrapper ul li a div div.inn {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 47px;
+    color: #ccc;
+    text-shadow: 0 1px 2px #000;
+    text-align: center;
+    background-color: #333;
+    border-radius: 6px;
+        font-size: 20px;
+} */
+.special_title h4 {
+    color: #5b5757;
+    font-size: 20px;
+}
+.special_left img {
+    min-height: 194px;
+    max-height: 194px;
+    width: 100%;
+    object-fit: fill;
+}
+.special_left h6 {
+    font-size: 13px;
+    font-weight: 600;
+}
+.special_offer_men {
+    border: 2px solid;
+    border-color: yellow;
+    border-radius: 20px;
+}
+
+div#countdown li {
+    border: 1px solid;
+    font-size: 13px;
+    font-weight: 600;
+    align-items: center;
+    color: black;
+    background: #80808017;
+    padding: 4px 7px;
+    margin: 1px;
+    border-color: #80808047;
+}
+
+
+.content_left h5#headline {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* general styling */
+
+  
+
+  
+
+/*=================================================== BEST SELLING END  */
 
 
 /*=================================================== FOOTER START  */
