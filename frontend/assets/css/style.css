@@ -100,7 +100,8 @@ body {
     -ms-transition: 0.3 !important;
     -o-transition: 0.3 !important;
     /* font-family: 'Readex Pro', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
+    font-family: font-family: 'Open Sans', sans-serif;
+    ;
 }
 
 
@@ -194,7 +195,9 @@ body {
     font-size: 22px;
     font-weight: 600;
     color: #333e48;
-} */
+}
+
+*/
 
 a.btn_view {
     color: #333e48;
@@ -203,10 +206,17 @@ a.btn_view {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .border_one {
     border-top: 0.1px solid #dee2e6;
 }
 =======
+=======
+.border_one {
+    border-top: 0.1px solid #dee2e6;
+}
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 
 >>>>>>> c13c9cb866dd59608b8818a4acbbaf672c36d972
 /*=================================================== CUSTOME END  */
@@ -239,6 +249,10 @@ header.section-header .top_head_right a.trak_order {
     font-size: 14px;
 }
 =======
+
+header.section-header .top_head_right a.trak_order {
+    font-size: 14px;
+}
 
 
 >>>>>>> c13c9cb866dd59608b8818a4acbbaf672c36d972
@@ -299,6 +313,10 @@ sub {
     padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 /* div#cart_header_table .img_header_cart img {
     width: 70px;
 }
@@ -309,41 +327,77 @@ div#cart_header_table tbody {
 div#cart_header_table .table {
     table-layout: fixed;
 } */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 div#cart_header_table {
     left: -154%;
     width: 421px;
     border-radius: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 div#cart_header_table .cart_header_price {
     border-top: 0.1px solid #dee2e6;
     padding: 12px 14px 0 14px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 div#cart_header_table .cart_header_title {
     width: 280px;
     text-align: left;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 div#cart_header_table .cart_header_price h6 {
     font-size: 15px;
     font-weight: 600;
     padding-right: 11px;
 }
+<<<<<<< HEAD
 div#cart_header_table .img_header_cart img {
         min-width: 60px;
+=======
+
+div#cart_header_table .img_header_cart img {
+    min-width: 60px;
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
     max-width: 60px;
     min-height: 60px;
     max-height: 60px;
 }
+<<<<<<< HEAD
 div#cart_header_table .img_header_cart {
         min-width: 60px;
+=======
+
+div#cart_header_table .img_header_cart {
+    min-width: 60px;
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
     max-width: 60px;
     min-height: 60px;
     max-height: 60px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 div#cart_header_table td {
     color: black;
     font-size: 15px;
     font-weight: 600;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 div#cart_header_table .header_cart_icon {
     background: #80808047;
     color: black;
@@ -355,15 +409,30 @@ div#cart_header_table .header_cart_icon {
     line-height: 25px;
     transition: .3s;
 }
+<<<<<<< HEAD
 div#cart_header_table .header_cart_icon:hover {
     background: var(--theme_color);
    
 }
 div#cart_header_table .table td, .table th {
+=======
+
+div#cart_header_table .header_cart_icon:hover {
+    background: var(--theme_color);
+}
+
+div#cart_header_table .table td,
+.table th {
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
     padding: 0.75rem;
     vertical-align: top;
     border-top: 0.1px solid #dee2e6;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 /*=================================================== HEADER END  */
 
 
@@ -419,9 +488,13 @@ button.slick-next.slick-arrow {
     width: 37px;
     border-color: #0000005c;
     background-color: var(--white);
+<<<<<<< HEAD
     transform: rotate(
 180deg
 );
+=======
+    transform: rotate(180deg);
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
     height: 37px;
 }
 
@@ -559,9 +632,16 @@ span.pr-2.category_icon_img img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .product_icon:hover .icon_show_category {
     opacity: 1;
 }
+=======
+.product_icon:hover .icon_show_category {
+    opacity: 1;
+}
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 
 =======
 >>>>>>> c13c9cb866dd59608b8818a4acbbaf672c36d972
@@ -829,7 +909,24 @@ section#two_banner .banner_img_block img {
   }
 =======
 
+<<<<<<< HEAD
 >>>>>>> c13c9cb866dd59608b8818a4acbbaf672c36d972
+=======
+/* the slides */
+
+.slick-slide {
+    margin-left: 27px;
+}
+
+
+/* the parent */
+
+.slick-list {
+    margin-left: -27px;
+}
+
+
+>>>>>>> 80853203afd1f91542d3f4818a218a4ebf2ceb72
 /*=================================================== TOW BANNER END  */
 
 
@@ -889,7 +986,9 @@ section#productlist .flip-clock-wrapper ul li a div div.inn {
     background-color: #333;
     border-radius: 6px;
         font-size: 20px;
-} */
+}
+
+*/
 
 .special_title h4 {
     color: #5b5757;

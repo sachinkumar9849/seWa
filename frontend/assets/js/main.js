@@ -57,7 +57,7 @@ $('.slick_category').slick({
     responsive: [{
             breakpoint: 1400,
             settings: {
-                slidesToShow: 6,
+                slidesToShow: 4,
                 slidesToScroll: 1
             }
         },
