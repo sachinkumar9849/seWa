@@ -51,7 +51,7 @@ $('.slider_banner').slick({
 
 $('.slick_category').slick({
     autoplay: true,
-    slidesToShow: 9,
+    slidesToShow: 7,
     slidesToScroll: 1,
     arrows: true,
     dots: false,
@@ -96,10 +96,13 @@ $('.slick_category').slick({
 });
 // Recommendation For You end
 
+// Two banner slider start
+
+// Two banner slider end
 // Recommendation For You start
 
 $('.slider_feature').slick({
-    autoplay: true,
+    autoplay: false,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
