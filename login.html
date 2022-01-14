@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheese World</title>
+    <title>Sewa</title>
     <!-- Bootstrap link Starts -->
     <link rel="stylesheet" href="frontend/assets/bootstrap-4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="frontend/assets/bootstrap-4.3.1/css/bootstrap.min.css.map">
@@ -25,878 +25,79 @@
     <!-- Font Link Ends -->
     <link rel="stylesheet" href="https://k1ngzed.com/dist/swiper/swiper.min.css" />
     <link rel="stylesheet" href="https://k1ngzed.com/dist/EasyZoom/easyzoom.css" />
+    <link rel="stylesheet" href="frontend/assets/magnific-popup/magnific-popup.css" />
     <link rel="stylesheet" href="frontend/assets/css/style.css">
+    <link rel="stylesheet" href="frontend/assets/css/style2.css">
     <link rel="stylesheet" href="frontend/assets/css/responsive.css">
     <!-- Custom Links Ends -->
 </head>
 
-<body>
+<body onload="myFunction()">
+    <div id="loading"></div>
     <!-- Whole Body Wrapper Starts -->
-    <section id="product-detail-page-wrapper">
-        <!-- Navigation Starts -->
-        <section id="navigation-wrapper" class="navigation-wrap">
-            <nav class="navbar header-sticky">
-                <div class="image">
-                    <a class="navbar-brand" href="index.html">
-                        <!-- <img src="frontend/assets/images/logo/logo.png" alt="navigation-logo" class="img-fluid"> -->
-                        <h3 class="m-0 font-weight-bold"><span>Cheese</span> World !</h3>
-                    </a>
-                </div>
-                <div class="navbar-menus d-xl-block d-lg-block d-none" id="navbarmain">
-                    <ul class="navbar-nav py-4 py-md-0 d-flex flex-row flex-wrap" role="menu">
-                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link active" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link" href="">
-                                    Products
-                                    <span class="ml-1">
-                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                            <div class="mega-menu-wrapper">
-                                <div class="row p-4">
+    <section id="register-page-wrapper">
 
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 29</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 29</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Recipes
-                                    <span class="ml-1">
-                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                            <div class="mega-menu-wrapper">
-                                <div class="row p-4">
-
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 29</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 29</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- /.col-md-3  -->
-                                    <div class="col-md-3">
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item">
-                                                <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 1</a>
-                                            </li>
-                                            <li class="nav-item p-0">
-                                                <a class="nav-link" href="under-construction.html">Item 2</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Categories
-                                    <span class="ml-1">
-                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                            <div class="mega-menu-wrapper">
-                                <!-- <a class="dropdown-item" href="">Product 1</a>
-                                    <a class="dropdown-item" href="">Product 2</a> -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 29</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 1</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 2</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- /.col-md-3  -->
-                                        <div class="col-md-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 1</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 2</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 29</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 1</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 2</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- /.col-md-3  -->
-                                        <div class="col-md-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 1</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 2</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 29</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 1</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 2</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- /.col-md-3  -->
-                                        <div class="col-md-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                    <a class="nav-link head font-weight-bold" href="under-construction.html">Heading 27</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 1</a>
-                                                </li>
-                                                <li class="nav-item p-0">
-                                                    <a class="nav-link" href="under-construction.html">Item 2</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-
-                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                            <a class="nav-link" href="portfolio.html">Contact Us</a>
-                        </li>
-                        <!-- Popup Saerch Modal Anchor -->
-                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                            <a class="btn" data-toggle="modal" data-target="#searchpopupmodal"><i class="fa fa-search"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cart-wishlist desk-nav d-xl-block d-lg-block d-none">
-                    <ul class="d-flex align-items-center justify-content-between m-0">
-                        <li>
-                            <a class="nav-link add-on px-xl-2 px-lg-1 px-md-2 px-2" data-toggle="modal" data-target="#nav-cart">
-                                <span class="mr-1"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <sup class="cart-items text-white">2</sup>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link add-on px-xl-2 px-lg-1 px-md-2 px-2" data-toggle="modal" data-target="#nav-cart">
-                                <span class="mr-1"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <sup class="cart-items text-white">2</sup>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-auto add-on" href="#" id="profilenav">
-                                <span class="mr-1"><i class="fa fa-user-o" aria-hidden="true"></i></span> <label class="mb-0">Profile</label> <span class="ml-1">
-                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                        </span>
-                            </a>
-                            <div class="profilenav-dropdown custom-position p-0" aria-labelledby="profilenav">
-                                <a class="dropdown-item" href="under-construction.html"> <span class="mr-2"><i class="fa fa-sign-in" aria-hidden="true"></i></span>Login</a>
-                                <a class="dropdown-item" href="under-construction.html"> <span class="mr-2"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>Register</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Mobile Popup Search Modal Anchor -->
-                <a class="btn d-xl-none d-lg-none d-md-block search-button" data-toggle="modal" data-target="#searchpopupmodal"><i class="fa fa-search"></i></a>
-
-                <!-- Mobile Popup Search Modal Anchor Ends -->
-                <!-- Small Desktop & mobile Cart-wishlist and Profile -->
-                <!-- Button trigger modal -->
-                <div class="mobile-menu d-lg-none d-md-block mr-4 position-absolute" data-toggle="modal" data-target="#rightsidebarfilter"><span><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span> </div>
-                <!-- Button trigger modal -->
-
-                <!-- Small Desktop & mobile Cart-wishlist and Profile End-->
-            </nav>
-
-        </section>
-        <!-- Navigation Ends -->
-        <!-- Breadcrumbs -->
-        <section id="breadcrumb-wrapper" class="position-relative">
-            <div class="image">
-                <img src="frontend/assets/images/product-images/3.jpg" alt="breadcrumb-image" class="img-fluid">
-            </div>
-            <div class="overlay position-absolute">
-                <div class="title p-4">Product Listing</div>
-            </div>
-        </section>
-        <!-- Breadcrumbs Ends -->
-        <!-- Product Detail  -->
-        <section id="product-detail-wrapper" class="py-3">
+        <!-- Login Register -->
+        <section id="login-register-wrapper" class="py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-5 col-lg-5 col-md-6 col-12">
-                        <div class="product-carousel">
-                            <!-- Swiper and EasyZoom plugins start -->
-                            <div class="swiper-container gallery-top" style="height: 400px">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide easyzoom easyzoom--overlay">
-                                        <a href="frontend/assets/images/product-images/1.jpg">
-                                            <img src="frontend/assets/images/product-images/1.jpg" alt="slider-image" class="img-fluid" />
-                                        </a>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4 col-md-7 mx-auto form-wrapper">
+                        <form class="px-3 py-4">
+                            <div class="text-center">
+                                <h2 class="font-weight-bold title my-xl-3 my-md-3 my-4 btn-shine">Login</h2>
+                                <div class="form-group position-relative mb-xl-4 mb-md-3 mb-2">
+                                    <input type="text" class="form-control border-top-0 border-right-0 border-left-0 rounded-0 shadow-none bg-transparent" id="username" placeholder="Username">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                </div>
+                                <div class="form-group position-relative mb-xl-4 mb-md-3 mb-2">
+                                    <input type="password" class="form-control border-top-0 border-right-0 border-left-0 rounded-0
+                                            shadow-none bg-transparent" id="password" placeholder="Type Password">
+                                    <i class="fa fa-key" aria-hidden="true"></i>
+                                </div>
+                                <div class="row my-2">
+                                    <div class="col-md-6">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label custom-font-size" for="defaultCheck1">
+                                                Remember me
+                                            </label>
+                                        </div>
                                     </div>
-                                    <div class="swiper-slide easyzoom easyzoom--overlay">
-                                        <a href="frontend/assets/images/product-images/2.jpg">
-                                            <img src="frontend/assets/images/product-images/2.jpg" alt="slider-image" class="img-fluid" />
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide easyzoom easyzoom--overlay">
-                                        <a href="frontend/assets/images/product-images/3.jpg">
-                                            <img src="frontend/assets/images/product-images/3.jpg" alt="slider-image" class="img-fluid" />
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide easyzoom easyzoom--overlay">
-                                        <a href="frontend/assets/images/product-images/4.jpg">
-                                            <img src="frontend/assets/images/product-images/4.jpg" alt="slider-image" class="img-fluid" />
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide easyzoom easyzoom--overlay">
-                                        <a href="frontend/assets/images/product-images/5.jpg">
-                                            <img src="frontend/assets/images/product-images/5.jpg" alt="slider-image" class="img-fluid" />
-                                        </a>
+                                    <div class="col-md-6 text-xl-right text-lg-right text-center mt-xl-0 mt-lg-0 mt-2">
+                                        <a href="#">Forgot Password?</a>
                                     </div>
                                 </div>
-                                <!-- Add Arrows -->
-                                <div class="swiper-button-next swiper-button-white"></div>
-                                <div class="swiper-button-prev swiper-button-white"></div>
-                            </div>
-                            <div class="swiper-container gallery-thumbs">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img src="frontend/assets/images/product-images/1.jpg" alt="slider-image" class="img-fluid" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="frontend/assets/images/product-images/2.jpg" alt="slider-image" class="img-fluid" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="frontend/assets/images/product-images/3.jpg" alt="slider-image" class="img-fluid" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="frontend/assets/images/product-images/4.jpg" alt="slider-image" class="img-fluid" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="frontend/assets/images/product-images/5.jpg" alt="slider-image" class="img-fluid" />
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Swiper and EasyZoom plugins end -->
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-7 col-md-6 col-12">
-                        <div class="d-flex justify-content-center h-100 product-detail flex-column">
-                            <div class="about mb-3">
-                                <div class="rating-wrapper mb-2">
-                                    <div class="p-ratings">
-                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-row align-items-center mb-2">
-                                    <h1 class="font-weight-bold m-0">Milky Italian Mozzarella</h1>
-                                </div>
-                                <div class="product-price d-flex ">
-                                    <div class="first-price mr-2">NPR 6000</div>
-                                    <div class="second-price">NPR 3000</div>
-                                </div>
-                            </div>
-                            <div class="mt-2">
-                                <h5>Description</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id
-                                    nulla.
+                                <button class="btn-custom text-uppercase ">
+                                    Login
+                                </button>
+                                <p class="text-center mt-4 custom-font-size">
+                                    Don't have an account?
+                                    <span>
+                                        <a href="register.html">Register</a>
+                                    </span>
                                 </p>
-                            </div>
-                            <form class="product-types">
-                                <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                        <label>Weight</label>
-                                        <select id="size" class="form-control">
-                                      <option selected>Choose...</option>
-                                      <option>1kg</option>
-                                      <option>2kg</option>
-                                      <option>3kg</option>
-                                    </select>
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <div class="quantity mb-3">
-                                            <label>Quantity</label>
-                                            <div>
-                                                <input type="number" placeholder="1" /></div>
+                                <div class="row mb-4 px-3 justify-content-center align-items-center">
+                                    <h6 class="mb-xl-0 mb-md-2 mb-2 mr-2 custom-font-size">Sign in with</h6>
+                                    <div class="social-media d-flex justify-content-center h-100">
+                                        <div class="facebook text-center mr-3">
+                                            <a class="fa fa-facebook" aria-hidden="true"></a>
+                                        </div>
+                                        <div class="twitter text-center mr-3">
+                                            <a class="fa fa-twitter" aria-hidden="true"></a>
+                                        </div>
+                                        <div class="linkedin text-center mr-3">
+                                            <a class="fa fa-linkedin" aria-hidden="true"></a>
                                         </div>
                                     </div>
-                                </div> <button class="effect">Add to Cart</button>
-                                <button class="effect">Buy Now</button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-12 mt-3">
-                        <nav>
-                            <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">Additional Information</a>
-                                <a class="nav-item nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">Reviews <span>(9)</span> </a>
-                            </div>
-                        </nav>
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active p-3 w-75 mx-auto" id="first" role="tabpanel" aria-labelledby="first-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, non praesentium corrupti illum, repudiandae adipisci, fuga nesciunt deserunt ipsam inventore ad fugit beatae necessitatibus maiores mollitia rem officiis tenetur!
-                                Corrupti.
-                                <div class="table-responsive mt-4">
-                                    <table class="table">
-                                        <h4>Milky Italian Mozzarella</h4>
-                                        <tbody>
-                                            <tr>
-                                                <th>Weight</th>
-                                                <td>2 kg</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Ingredients</th>
-                                                <td>Cheese</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
                                 </div>
                             </div>
-                            <div class="tab-pane fade p-3" id="second" role="tabpanel" aria-labelledby="second-tab">
-                                <div class="row">
-                                    <div class="col-xl-8 col-lg-8 col-12 user-comment mx-auto px-xl-5 px-2 py-4">
-                                        <div class="col-12 mb-4 text-center">
-                                            <h2 class="font-weight-bold mb-xl-4 mb-md-3 mb-2">Add a comment</h2>
-                                        </div>
-                                        <div class="col-xl-12">
-                                            <form>
-                                                <div class="row">
-                                                    <div class="col-md-6 col-sm-12 mb-md-0 mb-4">
-                                                        <input type="text" class="form-control rounded-0" placeholder="Name">
-                                                    </div>
-                                                    <div class="col-md-6 col-sm-12">
-                                                        <input type="email" class="form-control rounded-0" placeholder="Email address">
-                                                    </div>
-                                                    <div class="col-12 my-md-5 my-4">
-                                                        <div class="col-text-area d-flex justify-content-center">
-                                                            <textarea class="w-100 p-3 rounded-0" placeholder="Add Comment"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12">
-                                                        <div class="d-flex justify-content-center mb-4">
-                                                            <div class="p-ratings">
-                                                                <i class="fa fa-star"></i>
-                                                                <i class="fa fa-star"></i>
-                                                                <i class="fa fa-star"></i>
-                                                                <i class="fa fa-star"></i>
-                                                                <i class="fa fa-star"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="button-wrapper mx-auto mb-3">
-                                                        <button class="effect px-4">Send</button>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <!-- User Comments -->
-                                    <div class="col-xl-4 col-lg-4 col-12  p-4 my-3 mx-auto bg-light">
-                                        <div class="comments-content">
-                                            <div class="content">
-                                                <h5 class="mb-2">By Joe John</h5>
-                                                <div class="p-ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                <small class="review-date">March 26, 2017</small>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="mb-2">By Joe John</h5>
-                                                <div class="p-ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                <small class="review-date">March 26, 2017</small>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="mb-2">By Joe John</h5>
-                                                <div class="p-ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                <small class="review-date">March 26, 2017</small>
-                                            </div>
-                                            <div class="content">
-                                                <h5 class="mb-2">By Joe John</h5>
-                                                <div class="p-ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                <small class="review-date">March 26, 2017</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- User Comments Ends -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-        <!-- Product Detail Ends -->
-        <!-- Product Listing -->
-        <section id="product-listing-wrapper">
-            <div class="container">
-                <div class="product-lists padding">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="heading d-flex justify-content-center align-items-center text-center mb-3 flex-wrap">
-                                <div class="head">
-                                    <h2>Related Products</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
-                            <div class="product-grid-item">
-                                <div class="product-grid-image">
-                                    <a href="#">
-                                        <img class="pic-1" src="frontend/assets/images/product-images/1.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="" class="fa fa-shopping-bag"></a>
-                                        </li>
-                                        <li>
-                                            <a href="" class="fa fa-shopping-cart"></a>
-                                        </li>
-                                    </ul>
-                                    <span class="product-discount-label">-20%</span>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title text-center">
-                                        <a href="#" class="font-weight-bold">Cheese Chicken Grill  </a></h3>
-                                    <div class="price text-center mb-3">
-                                        £ 8.00
-                                        <span>£ 10.00</span>
-                                    </div>
-                                    <a class="all-deals effect" href="">View Product <i class="fa fa-angle-right icon"></i>
-                                </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
-                            <div class="product-grid-item">
-                                <div class="product-grid-image">
-                                    <a href="#">
-                                        <img class="pic-1" src="frontend/assets/images/product-images/2.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="" class="fa fa-shopping-bag"></a>
-                                        </li>
-                                        <li>
-                                            <a href="" class="fa fa-shopping-cart"></a>
-                                        </li>
-                                    </ul>
-                                    <span class="product-discount-label">-20%</span>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title text-center">
-                                        <a href="#" class="font-weight-bold">Cheese Chicken Grill  </a></h3>
-                                    <div class="price text-center mb-3">
-                                        £ 8.00
-                                        <span>£ 10.00</span>
-                                    </div>
-                                    <a class="all-deals effect" href="">View Product <i class="fa fa-angle-right icon"></i>
-                                </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
-                            <div class="product-grid-item">
-                                <div class="product-grid-image">
-                                    <a href="#">
-                                        <img class="pic-1" src="frontend/assets/images/product-images/3.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="" class="fa fa-shopping-bag"></a>
-                                        </li>
-                                        <li>
-                                            <a href="" class="fa fa-shopping-cart"></a>
-                                        </li>
-                                    </ul>
-                                    <span class="product-discount-label">-20%</span>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title text-center">
-                                        <a href="#" class="font-weight-bold">Cheese Chicken Grill  </a></h3>
-                                    <div class="price text-center mb-3">
-                                        £ 8.00
-                                        <span>£ 10.00</span>
-                                    </div>
-                                    <a class="all-deals effect" href="">View Product <i class="fa fa-angle-right icon"></i>
-                                </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
-                            <div class="product-grid-item">
-                                <div class="product-grid-image">
-                                    <a href="#">
-                                        <img class="pic-1" src="frontend/assets/images/product-images/4.jpg">
-                                    </a>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="" class="fa fa-shopping-bag"></a>
-                                        </li>
-                                        <li>
-                                            <a href="" class="fa fa-shopping-cart"></a>
-                                        </li>
-                                    </ul>
-                                    <span class="product-discount-label">-20%</span>
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title text-center">
-                                        <a href="#" class="font-weight-bold">Cheese Chicken Grill  </a></h3>
-                                    <div class="price text-center mb-3">
-                                        £ 8.00
-                                        <span>£ 10.00</span>
-                                    </div>
-                                    <a class="all-deals effect" href="">View Product <i class="fa fa-angle-right icon"></i>
-                                </a>
-                                </div>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Product Listing Ends -->
-        <!-- Footer -->
-        <section id="footer-wrapper" class="text-white py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-2">
-                        <div class="image">
-                            <a href="index.html"> <img src="frontend/assets/images/logo/2.png" alt="footer-logo-image" class="img-fluid"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-2">
-                        <ul class="footer-nav-list">
-                            <div class="heading">
-                                <div class="head">
-                                    <a href="">
-                                        <h2>Connect with Us</h2>
-                                    </a>
-                                </div>
-                            </div>
-                            <li>
-                                <a href=" mailto:webmaster@example.com"><span class="mr-2"><i class="fa fa-envelope-square" aria-hidden="true"></i></span>cheeseworld@gmail.com</a>
-                                </h5>
-                            </li>
-                            <li>
-                                <a href="tel:+4733378901"><span class="mr-2"><i class="fa fa-phone" aria-hidden="true"></i></span>01-123456789</a></h5>
-                            </li>
-                            <li>
-                                <a href=""><span class="mr-2"><i class="fa fa-map" aria-hidden="true"></i></span>Kathmandu, Nepal</a></h5>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-2">
-                        <ul class="footer-nav-list">
-                            <div class="heading">
-                                <div class="head">
-                                    <a href="">
-                                        <h2>Resources</h2>
-                                    </a>
-                                </div>
-                            </div>
-                            <li>
-                                <a href="">Email Support</a></h5>
-                            </li>
-                            <li>
-                                <a href="">Contact Us</a></h5>
-                            </li>
-                            <li>
-                                <a href="">About Us</a></h5>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-12 mb-2">
-                        <ul class="footer-nav-list">
-                            <div class="heading">
-                                <div class="head">
-                                    <a href="">
-                                        <h2>Follow Us</h2>
-                                    </a>
-                                </div>
-                            </div>
-                            <li>
-                                <a href=""><span class="mr-2"><i class="fa fa-facebook-official" aria-hidden="true"></i></span>Facebook_name</a>
-                                </h5>
-                            </li>
-                            <li>
-                                <a href=""><span class="mr-2"><i class="fa fa-instagram" aria-hidden="true"></i></span>Instagram_name</a></h5>
-                            </li>
-                            <li>
-                                <a href=""><span class="mr-2"><i class="fa fa-snapchat-square" aria-hidden="true"></i></span>Snapchat_name</a></h5>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer Ends -->
+        <!-- Login Register Ends -->
+
     </section>
     <!-- Whole Body Wrapper Ends -->
     <!-- 1st Jquery Link Starts-->
@@ -912,9 +113,10 @@
     <!-- Slick Js -->
     <script src="frontend/assets/slick/slick.min.js"></script>
     <!-- Slick Js Ends-->
-<!-- Magnific Popup -->
-<script src="frontend/assets/magnific-popup/jquery.magnific-popup.min.js"></script>
-<!-- Magnific Popup Ends-->
+
+    <!-- Magnific Popup -->
+    <script src="frontend/assets/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Magnific Popup Ends-->
     <!-- Custom Js Starts -->
     <script src="frontend/assets/js/main.js"></script>
     <!-- Custom Js Ends -->
@@ -926,8 +128,8 @@
                 <div class="modal-header">
                     <h5 class="modal-title" id="searchpopupmodallabel">Search your favourite item here !</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <input type="text">
@@ -981,9 +183,10 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title m-auto" id="navcartlabel"> <span class="mr-2"><i class="fa fa-opencart" aria-hidden="true"></i></span> Items List</h5>
+                    <h5 class="modal-title m-auto" id="navcartlabel"> <span class="mr-2"><i class="fa fa-opencart"
+                                aria-hidden="true"></i></span> Items List</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
+                        <span aria-hidden="true">×</span>
                     </button>
                 </div>
                 <div class="modal-body">
@@ -1120,7 +323,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="leftsidebarfilterlabel">Product Filter</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
                     <div class="left-side-wrapper px-4 py-4">
@@ -1269,46 +473,46 @@
                                             <div class="collapse" id="expand2">
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                                <input class="form-check-input" type="checkbox" value="">
-                                                                <span class="form-check-label">
-                                                                    Brand 3
-                                                                </span>
-                                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 3
+                                                    </span>
+                                                </label>
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                <span class="form-check-label">
-                                                    Brand 3
-                                                </span>
-                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 3
+                                                    </span>
+                                                </label>
                                                 <label class="form-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                <span class="form-check-label">
-                                                    Brand 1
-                                                </span>
-                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 1
+                                                    </span>
+                                                </label>
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                <span class="form-check-label">
-                                                    Brand 2
-                                                </span>
-                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 2
+                                                    </span>
+                                                </label>
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                <span class="form-check-label">
-                                                    Brand 3
-                                                </span>
-                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 3
+                                                    </span>
+                                                </label>
                                                 <!-- form-check.// -->
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                                <input class="form-check-input" type="checkbox" value="">
-                                                                <span class="form-check-label">
-                                                                    Brand 3
-                                                                </span>
-                                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 3
+                                                    </span>
+                                                </label>
                                             </div>
                                             <div class="expand text-center">
                                                 <a data-toggle="collapse" href="#expand2" role="button" aria-expanded="false" aria-controls="expand2">View more</a>
@@ -1465,46 +669,46 @@
                                             <div class="collapse" id="expand2">
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                                <input class="form-check-input" type="checkbox" value="">
-                                                                <span class="form-check-label">
-                                                                    Brand 3
-                                                                </span>
-                                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 3
+                                                    </span>
+                                                </label>
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                <span class="form-check-label">
-                                                    Brand 3
-                                                </span>
-                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 3
+                                                    </span>
+                                                </label>
                                                 <label class="form-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                <span class="form-check-label">
-                                                    Brand 1
-                                                </span>
-                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 1
+                                                    </span>
+                                                </label>
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                <span class="form-check-label">
-                                                    Brand 2
-                                                </span>
-                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 2
+                                                    </span>
+                                                </label>
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                <input class="form-check-input" type="checkbox" value="">
-                                                <span class="form-check-label">
-                                                    Brand 3
-                                                </span>
-                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 3
+                                                    </span>
+                                                </label>
                                                 <!-- form-check.// -->
                                                 <!-- form-check.// -->
                                                 <label class="form-check d-flex align-items-center">
-                                                                <input class="form-check-input" type="checkbox" value="">
-                                                                <span class="form-check-label">
-                                                                    Brand 3
-                                                                </span>
-                                                            </label>
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-label">
+                                                        Brand 3
+                                                    </span>
+                                                </label>
                                             </div>
                                             <div class="expand text-center">
                                                 <a data-toggle="collapse" href="#expand2" role="button" aria-expanded="false" aria-controls="expand2">View more</a>
@@ -1537,28 +741,35 @@
                             </a>
                         </div>
                     </div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body d-flex justify-content-between h-100 px-4">
                     <ul class="navbar-nav w-100">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html"> <span class="nav-indication mr-2"><i class="fa fa-eercast" aria-hidden="true"></i></span> Home</a>
+                            <a class="nav-link active" href="index.html"> <span class="nav-indication mr-2"><i
+                                        class="fa fa-eercast" aria-hidden="true"></i></span> Home</a>
                         </li>
                         <li class="nav-item d-flex align-items-center">
                             <a class="nav-link add-on" data-toggle="modal" data-target="#nav-cart">
-                                <span class="nav-indication mr-2"><i class="fa fa-eercast" aria-hidden="true"></i></span>My Cart <span class="mx-2"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span> <sup class="cart-items text-white">2</sup>
+                                <span class="nav-indication mr-2"><i class="fa fa-eercast"
+                                        aria-hidden="true"></i></span>My Cart <span class="mx-2"><i
+                                        class="fa fa-shopping-bag" aria-hidden="true"></i></span> <sup class="cart-items text-white">2</sup>
                             </a>
                         </li>
                         <li class="nav-item d-flex align-items-center">
                             <a class="nav-link add-on" data-toggle="modal" data-target="#nav-cart">
-                                <span class="nav-indication mr-2"><i class="fa fa-eercast" aria-hidden="true"></i></span>Wishlist <span class="mx-2"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <sup class="cart-items text-white">2</sup>
+                                <span class="nav-indication mr-2"><i class="fa fa-eercast"
+                                        aria-hidden="true"></i></span>Wishlist <span class="mx-2"><i
+                                        class="fa fa-heart-o" aria-hidden="true"></i></span> <sup class="cart-items text-white">2</sup>
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="nav-indication mr-2"><i class="fa fa-eercast" aria-hidden="true"></i></span>Products<span class="ml-1">
-                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                    </span>
+                                <span class="nav-indication mr-2"><i class="fa fa-eercast"
+                                        aria-hidden="true"></i></span>Products<span class="ml-1">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
                             </a>
                             <div class="dropdown-menu">
                                 <div class="container d-block">
@@ -1682,9 +893,10 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="nav-indication mr-2"><i class="fa fa-eercast" aria-hidden="true"></i></span>Category<span class="ml-1">
-                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                    </span>
+                                <span class="nav-indication mr-2"><i class="fa fa-eercast"
+                                        aria-hidden="true"></i></span>Category<span class="ml-1">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
                             </a>
                             <div class="dropdown-menu">
                                 <div class="container d-block">
@@ -1808,9 +1020,10 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="nav-indication mr-2"><i class="fa fa-eercast" aria-hidden="true"></i></span> Recipes<span class="ml-1">
-                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                    </span>
+                                <span class="nav-indication mr-2"><i class="fa fa-eercast"
+                                        aria-hidden="true"></i></span> Recipes<span class="ml-1">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
                             </a>
                             <div class="dropdown-menu">
                                 <div class="container d-block">
@@ -1933,13 +1146,16 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-us.html"> <span class="nav-indication mr-2"><i class="fa fa-eercast" aria-hidden="true"></i></span> Contact Us</a>
+                            <a class="nav-link" href="contact-us.html"> <span class="nav-indication mr-2"><i
+                                        class="fa fa-eercast" aria-hidden="true"></i></span> Contact Us</a>
                         </li>
                     </ul>
                 </div>
                 <div class="modal-footer py-3">
-                    <a class="w-50 text-center" href="under-construction.html"> <span class="mr-2"><i class="fa fa-sign-in" aria-hidden="true"></i></span>Login</a>
-                    <a class="w-50 text-center" href="under-construction.html"> <span class="mr-2"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>Register</a>
+                    <a class="w-50 text-center" href="under-construction.html"> <span class="mr-2"><i
+                                class="fa fa-sign-in" aria-hidden="true"></i></span>Login</a>
+                    <a class="w-50 text-center" href="under-construction.html"> <span class="mr-2"><i
+                                class="fa fa-paper-plane" aria-hidden="true"></i></span>Register</a>
                 </div>
             </div>
         </div>
@@ -1960,26 +1176,33 @@
                         <div class="d-user-avater text-center mb-4">
                             <img src="frontend/assets/images/product-images/1.jpg" class="img-fluid avater" alt="profile-image">
                             <h5>Adam Harshvardhan</h5>
-                            <a href=""> <span class="mr-1"><i class="fa fa-pencil" aria-hidden="true"></i></span> Upload Image</a>
+                            <a href=""> <span class="mr-1"><i class="fa fa-pencil" aria-hidden="true"></i></span> Upload Image
+                            </a>
                         </div>
                         <ul class="sidebar">
                             <li class="active mb-3 p-2">
-                                <a href="dashboard-profile.html"><span class="mr-2"><i class="fa fa-user" aria-hidden="true"></i></span>Profile</a>
+                                <a href="dashboard-profile.html"><span class="mr-2"><i class="fa fa-user"
+                                            aria-hidden="true"></i></span>Profile</a>
                             </li>
                             <li class="mb-3 p-2">
-                                <a href="dashboard-order-status.html"><span class="mr-2"><i class="fa fa-sort" aria-hidden="true"></i></span>Order Status</a>
+                                <a href="dashboard-order-status.html"><span class="mr-2"><i class="fa fa-sort"
+                                            aria-hidden="true"></i></span>Order Status</a>
                             </li>
                             <li class="mb-3 p-2">
-                                <a href="dashboard-cart.html"><span class="mr-2"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>My Cart</a>
+                                <a href="dashboard-cart.html"><span class="mr-2"><i class="fa fa-shopping-bag"
+                                            aria-hidden="true"></i></span>My Cart</a>
                             </li>
                             <li class="mb-3 p-2">
-                                <a href="dashboard-wishlist.html"><span class="mr-2"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>Wishlist</a>
+                                <a href="dashboard-wishlist.html"><span class="mr-2"><i class="fa fa-shopping-bag"
+                                            aria-hidden="true"></i></span>Wishlist</a>
                             </li>
                             <li class="mb-3 p-2">
-                                <a href="dashboard-change-password.html"><span class="mr-2"><i class="fa fa-lock" aria-hidden="true"></i></span>Change Password</a>
+                                <a href="dashboard-change-password.html"><span class="mr-2"><i class="fa fa-lock"
+                                            aria-hidden="true"></i></span>Change Password</a>
                             </li>
                             <li class="mb-3 p-2">
-                                <a href="index.html"><span class="mr-2"><i class="fa fa-sign-out" aria-hidden="true"></i></span>Logout</a>
+                                <a href="index.html"><span class="mr-2"><i class="fa fa-sign-out"
+                                            aria-hidden="true"></i></span>Logout</a>
                             </li>
                         </ul>
                     </div>
